@@ -1,0 +1,352 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "Computer Parts API",
+        "description": "Computer parts ahoy!",
+        "version": "0.1"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3000"
+        }
+    ],
+    "paths": {
+        "/api/products/2": {
+            "delete": {
+                "description": "Auto generated using Swagger Inspector",
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://localhost:3000"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://localhost:3000"
+                }
+            ]
+        },
+        "/api/products/1": {
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://localhost:3000"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://localhost:3000"
+                }
+            ]
+        },
+        "/api/categories/2": {
+            "put": {
+                "description": "Auto generated using Swagger Inspector",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/body"
+                            },
+                            "examples": {
+                                "0": {
+                                    "value": "    {\n      \"_id\": 2,\n      \"category\": \"GPU\",\n      \"name\": \"titaniumbearkiller\",\n      \"displayName\": \"The Titanium Bear Killer 950GTx-8080-RN2-X\",\n      \"description\": \"This will kill your bears dead while running FarCry 10\"\n    }"
+                                },
+                                "1": {
+                                    "value": "    {\n      \"name\": \"GPUs\",\n      \"display_name\": \"GPUs\",\n      \"description\": \"The GPU makes the blood shiny\"\n    }"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://localhost:3000"
+                    }
+                ]
+            },
+            "delete": {
+                "description": "Auto generated using Swagger Inspector",
+                "responses": {
+                    "404": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://localhost:3000"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://localhost:3000"
+                }
+            ]
+        },
+        "/api/categories": {
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://localhost:3000"
+                    }
+                ]
+            },
+            "post": {
+                "description": "Auto generated using Swagger Inspector",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/body_1"
+                            },
+                            "examples": {
+                                "0": {
+                                    "value": "    {\n      \"name\": \"GPUs\",\n      \"display_name\": \"GPUs\",\n      \"description\": \"The GPU makes the blood shiny\"\n    }"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://localhost:3000"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://localhost:3000"
+                }
+            ]
+        },
+        "/api/categories/1": {
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://localhost:3000"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://localhost:3000"
+                }
+            ]
+        },
+        "/api/products": {
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://localhost:3000"
+                    }
+                ]
+            },
+            "post": {
+                "description": "Auto generated using Swagger Inspector",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/body_2"
+                            },
+                            "examples": {
+                                "0": {
+                                    "value": "    {\n        \"category\": \"motherboards\",\n        \"name\": \"mama-board-8000\",\n        \"displayName\": \"The Mama Board 8000\",\n        \"description\": \"Recalled due to moral incertitude.\"\n    }"
+                                },
+                                "1": {
+                                    "value": "    {\n      \"category\": \"GPU\",\n      \"name\": \"titaniumbearkiller\",\n      \"displayName\": \"The Titanium Bear Killer 950GTx-8080-RN2-X\",\n      \"description\": \"This will kill your bears dead while running FarCry 10\"\n    }"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://localhost:3000"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://localhost:3000"
+                }
+            ]
+        }
+    },
+    "components": {
+        "schemas": {
+            "body": {
+                "type": "object",
+                "properties": {
+                    "displayName": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "_id": {
+                        "type": "integer"
+                    },
+                    "category": {
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "type": "string"
+                    }
+                }
+            },
+            "body_1": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "type": "string"
+                    }
+                }
+            },
+            "body_2": {
+                "type": "object",
+                "properties": {
+                    "displayName": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "category": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
