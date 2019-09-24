@@ -5,6 +5,12 @@
       "name": "motherboards",
       "display_name": "Motherboards",
       "description": "The motherboard goes in the computer you dummy"
+    },
+    {
+      "name": "GPUs",
+      "display_name": "GPUs",
+      "description": "The GPU makes the blood shiny",
+      "_id": 3
     }
   ],
   "products": [
@@ -14,6 +20,13 @@
       "name": "mama-board-9000",
       "displayName": "The Mama Board 9000",
       "description": "Only for gaming. If you try to use this for mining bitcoin it will explode."
+    },
+    {
+      "category": "GPU",
+      "name": "titaniumbearkiller",
+      "displayName": "The Titanium Bear Killer 950GTx-8080-RN2-X",
+      "description": "This will kill your bears dead while running FarCry 10",
+      "_id": 3
     }
   ]
 }
