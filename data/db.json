@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "_id": 1,
+      "name": "motherboards",
+      "display_name": "Motherboards",
+      "description": "The motherboard goes in the computer you dummy"
+    }
+  ],
+  "products": [
+    {
+      "_id": 1,
+      "category": "motherboards",
+      "name": "mama-board-9000",
+      "displayName": "The Mama Board 9000",
+      "description": "Only for gaming. If you try to use this for mining bitcoin it will explode."
+    }
+  ]
+}
